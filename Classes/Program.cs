@@ -14,6 +14,18 @@ namespace Classes
             productManager.Add();
             productManager.Update();
 
+            Customer customer = new Customer();
+            customer.City = "Ankara";
+            customer.Id = 1;
+            customer.FirstName = "Mustafa";
+            customer.LastName = "Aydogdu";
+
+            Customer customer2 = new Customer() 
+            { 
+                Id = 2, FirstName = "Engin", LastName = "Demirog", City = "Konya"
+            };
+
+            Console.WriteLine(customer2.FirstName);
 
             Console.ReadLine();
 
