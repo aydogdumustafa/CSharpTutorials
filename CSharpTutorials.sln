@@ -11,9 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generics", "Generics\Generi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dictionaries", "Dictionaries\Dictionaries.csproj", "{DCFEAD28-7D89-4A04-ADCD-5830366357C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes", "Classes\Classes.csproj", "{7A605DCD-E523-49F7-8FA2-0873301B9366}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Classes", "Classes\Classes.csproj", "{7A605DCD-E523-49F7-8FA2-0873301B9366}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecapDemo1", "RecapDemo1\RecapDemo1.csproj", "{C3BA2222-A7D3-491B-ACC2-C371EAB7C397}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{B32C192A-9C60-4BA0-91BA-F76B6CF11B89}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{C3BA2222-A7D3-491B-ACC2-C371EAB7C397}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3BA2222-A7D3-491B-ACC2-C371EAB7C397}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3BA2222-A7D3-491B-ACC2-C371EAB7C397}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B32C192A-9C60-4BA0-91BA-F76B6CF11B89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B32C192A-9C60-4BA0-91BA-F76B6CF11B89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B32C192A-9C60-4BA0-91BA-F76B6CF11B89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B32C192A-9C60-4BA0-91BA-F76B6CF11B89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
