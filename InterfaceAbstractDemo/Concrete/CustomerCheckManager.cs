@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using InterfaceAbstractDemo.Concrete;
 using InterfaceAbstractDemo.Abstract;
 using InterfaceAbstractDemo.Entities;
+using MernisServiceReference;
 
 namespace InterfaceAbstractDemo.Concrete
 {

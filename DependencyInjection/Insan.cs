@@ -13,7 +13,6 @@ namespace DependencyInjection
         {
             _giyin = giyin;
         }
-
         public void Yaz()
         {
             _giyin.Giyin();

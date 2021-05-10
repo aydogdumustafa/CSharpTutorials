@@ -2,6 +2,7 @@
 using InterfaceAbstractDemo.Abstract;
 using InterfaceAbstractDemo.Entities;
 using System;
+using InterfaceAbstractDemo.Adapters;
 
 namespace InterfaceAbstractDemo
 {
@@ -9,9 +10,10 @@ namespace InterfaceAbstractDemo
     {
         static void Main(string[] args)
         {
-            BaseCustomerManager customerManager = new NeroCustomerManager();
+            BaseCustomerManager customerManager = new StarbucksCustomerManager(new MernisServiceAdapter());
             
             customerManager.Save(new Customer {DateOfBirth = new DateTime(1990,1,1),FirstName = "Mustafa" , LastName = "Aydogdu", NationalityId = "123213213" });
+            Console.ReadLine();
         }
 
     }

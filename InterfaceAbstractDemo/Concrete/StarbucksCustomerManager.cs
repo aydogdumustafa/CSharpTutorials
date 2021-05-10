@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,7 +24,11 @@ namespace InterfaceAbstractDemo.Concrete
             {
                 base.Save(customer);
             }
-            throw new Exception("Not a valid person");
+            else
+            {
+                throw new Exception("Not a valid person");
+            }
+           
         }
     }
 }
